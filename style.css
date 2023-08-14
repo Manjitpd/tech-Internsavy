@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,#457fca,#5691c8);
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 100px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-header{
+     font-size: 2rem;
+     color: #212121;
+}
+
+.form-body p{
+      margin: 10px 10px;
+}
+
+.form-body p label{
+    display: block;
+    font-weight: bold;
+}
+
+.form-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid#cccc;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.form-body p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+ }
+
+
+ .form-body p input[type="submit"]:hover{
+    background-color: #2773a5;
+ }
+
+ #Message{
+    border: 2px solid#cccc;
+    border-radius: 4px;
+ }
